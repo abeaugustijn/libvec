@@ -6,7 +6,7 @@
 /*   By: aaugusti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 16:35:28 by aaugusti          #+#    #+#             */
-/*   Updated: 2020/03/20 11:49:30 by aaugusti         ###   ########.fr       */
+/*   Updated: 2020/04/08 19:50:50 by aaugusti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 
 double	vec_dist(t_vec3f a, t_vec3f b)
 {
-	return (sqrt(pow(b.x - a.x, 2) + 
+	return (sqrt(pow(b.x - a.x, 2) +
 				pow(b.y - a.y, 2) +
 				pow(b.z - a.z, 2)));
 }

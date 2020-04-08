@@ -6,7 +6,7 @@
 /*   By: aaugusti <aaugusti@student.codam.nl>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/20 11:39:43 by aaugusti          #+#    #+#             */
-/*   Updated: 2020/03/20 12:00:33 by aaugusti         ###   ########.fr       */
+/*   Updated: 2020/04/08 19:51:00 by aaugusti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdbool.h>
 
 # ifndef EPSILON
-#  define EPSILON (0.000001)
+#  define EPSILON 0.000001
 # endif
 
 typedef struct	s_vec3f {
